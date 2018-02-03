@@ -65,7 +65,7 @@ vboxmanage storageattach ${vm_name} \
             --port 1 \
             --device 0 \
             --type dvddrive \
-            --medium ${guest_additions_path}
+            --medium "${guest_additions_path}"
 
 # Attach a Hard Disk
 vboxmanage storageattach ${vm_name} \

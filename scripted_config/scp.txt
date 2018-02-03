@@ -1,0 +1,2 @@
+scp -P 50022 vm_wp_setup.sh admin@localhost:/home/admin
+scp -P 50022 files/* admin@localhost:/home/admin
